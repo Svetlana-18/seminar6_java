@@ -10,8 +10,8 @@ public class App {
 
         SimpleDateFormat formatter = new SimpleDateFormat("EEE, MMMM d, yyyy", Locale.ENGLISH);
 
-        Unicornshop unicorn1 = new Unicornshop(2000, "Барсик", 245, formatter.parse("Sat, April 4, 2019"), true, 1);
-        Unicornshop unicorn2 = new Unicornshop(3000, "Кеша", 245, formatter.parse("Sat, April 4, 2010"), false, 2);
+        Unicornshop unicorn1 = new Unicornshop(500000, "Егорка", 245, formatter.parse("Sat, April 4, 2019"), true, 1);
+        Unicornshop unicorn2 = new Unicornshop(350000, "Агата", 240, formatter.parse("Sat, April 1, 2022"), false, 2);
 
         HashSet<Unicornshop> unicornSet = new HashSet<Unicornshop>();
         unicornSet.add(unicorn1);
