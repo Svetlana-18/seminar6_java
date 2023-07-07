@@ -22,13 +22,15 @@ public class Unicornshop {
     public long id;
     public float price;
 
-    public Unicornshop(int weight, String name, int color, Date age, boolean isMan, long id, float price ) {
+    public Unicornshop(int weight, String name, int color, Date age, boolean isMan, long id, float price) {
         this.weight = weight;
         this.name = name;
         this.color = color;
         this.age = age;
         this.isMan = isMan;
         this.id = id;
+        this.price = price;
+
     }
 
     public boolean medSup() {
@@ -39,7 +41,8 @@ public class Unicornshop {
     public String toString() {
         SimpleDateFormat formatter = new SimpleDateFormat("EEE, MMMM d, yyyy", Locale.ENGLISH);
 
-        return "Кличка: " + name + " ID: " + id + " Вес: " + weight + " Дата рождения: " + formatter.format(age);
+        return "Кличка: " + name + " ID: " + id + " Вес: " + weight + " Дата рождения: " + formatter.format(age)
+                + "Цена: " + price;
     }
 
     @Override
