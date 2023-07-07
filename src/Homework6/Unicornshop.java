@@ -20,8 +20,9 @@ public class Unicornshop {
     public Date age;
     public boolean isMan;
     public long id;
+    public float price;
 
-    public Unicornshop(int weight, String name, int color, Date age, boolean isMan, long id) {
+    public Unicornshop(int weight, String name, int color, Date age, boolean isMan, long id, float price ) {
         this.weight = weight;
         this.name = name;
         this.color = color;
